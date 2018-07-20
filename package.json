@@ -1,0 +1,16 @@
+{
+  "name": "week-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node_modules/.bin/node-sass -o css scss/app.scss",
+    "watch": "node_modules/.bin/node-sass -w -r -o css scss/app.scss"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
